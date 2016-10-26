@@ -1,1 +1,3 @@
 google.json
+*.tfstate.backup
+*.tfstate
