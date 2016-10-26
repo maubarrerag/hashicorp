@@ -21,9 +21,6 @@ resource "google_compute_instance" "test1" {
 
   network_interface {
     network = "default"
-    access_config {
-       //Ephemeral IP
-    }
   }
 
   metadata {
